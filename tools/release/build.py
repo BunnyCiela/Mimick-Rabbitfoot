@@ -76,6 +76,7 @@ def build(wak, output):
     (output / "files/isf/worldgen/data/png_bytes.lua").write_text("".join(lines) + "}\n", encoding="ascii", newline="\n")
     notice = (ROOT / "docs/THIRD_PARTY_NOTICES.md").read_text(encoding="utf-8")
     (output / "THIRD_PARTY_NOTICES.txt").write_text(notice, encoding="utf-8", newline="\n")
+    (output / "LICENSE.txt").write_text((ROOT / "LICENSE").read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
     ElementTree.parse(output / "mod.xml")
     ElementTree.parse(output / "workshop.xml")
     for path in output.rglob("*.lua"):
