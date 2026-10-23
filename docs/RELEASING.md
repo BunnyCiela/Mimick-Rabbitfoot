@@ -52,3 +52,7 @@ MIT许可和第三方声明另以根目录 `.txt` 副本随工坊上传，符合
 编辑`tools/release/locales.json`后重新生成catalog；运行时按游戏的
 `$current_language`读取语言，设置界面每次绘制刷新文本。无读取接口时回退英文。
 日志键、法术ID与诊断机器输出不翻译。
+
+设置页由`tools/release/settings.template.lua`生成，内置同一份语言表和解析器。
+不要在生成后的`settings.lua`直接修改文案；Noita的部分设置环境不能读Mod其他文件，
+因此设置页不依赖`dofile_once`或启用状态。生成器同时更新运行期catalog和设置页。
