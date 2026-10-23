@@ -52,4 +52,4 @@ The practical model covers selected resources and known puzzle variants; it does
 
 Original code and translations are [MIT licensed](LICENSE). Upstream MIT notices are retained in [THIRD_PARTY_NOTICES](docs/THIRD_PARTY_NOTICES.md). Noita and its game assets belong to Nolla Games and are not relicensed under MIT. Artwork, including the supplied Workshop preview and charm sprites, is excluded from the code license. Rabbit & Steel is credited as inspiration; this project is an independent fan mod.
 
-Source: https://github.com/CloudChaan/Mimick-Rabbitfoot
+Source: [CloudChaan/Mimick-Rabbitfoot](https://github.com/CloudChaan/Mimick-Rabbitfoot)

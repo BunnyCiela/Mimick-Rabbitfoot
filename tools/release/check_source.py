@@ -10,7 +10,7 @@ from lupa import lua51, luajit20
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
-from generate_locales import render, DEST
+from generate_locales import render, render_settings, DEST
 
 LANGUAGES = ["en", "ru", "pt-br", "es-es", "de", "fr-fr", "it", "pl", "zh-cn", "jp", "ko"]
 NAMES = ["English", "русский", "Português (Brasil)", "Español", "Deutsch", "Français", "Italiano", "Polska", "简体中文", "日本語", "한국어"]
@@ -20,6 +20,7 @@ def main():
     source = json.loads((ROOT / "tools/release/locales.json").read_text(encoding="utf-8"))
     assert set(source["languages"]) == set(LANGUAGES)
     assert DEST.read_text(encoding="utf-8") == render()
+    assert (ROOT / "settings.lua").read_text(encoding="utf-8") == render_settings()
     for code, values in source["languages"].items():
         for key, value, reference in zip(source["keys"], values, source["languages"]["en"]):
             assert sorted(re.findall(r"\{\w+\}", value)) == sorted(re.findall(r"\{\w+\}", reference)), (code, key)
