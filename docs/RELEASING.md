@@ -3,7 +3,7 @@
 Mod：假兔脚（Mimick Rabbitfoot）。游戏内部目录与设置前缀继续使用
 `interesting_seed_filter`，避免破坏 Noita 虚拟路径和玩家已有设置。
 
-- [GitHub 公共仓库](https://github.com/CloudChaan/Mimick-Rabbitfoot)
+- [GitHub 公共仓库](https://github.com/BunnyCiela/Mimick-Rabbitfoot)
 - [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3825300539)
 
 本地开发 Mod 保留在 `mods/interesting_seed_filter`。整理后的独立 Git 仓库位于

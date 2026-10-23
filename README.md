@@ -10,7 +10,7 @@ Not a real rabbit's foot.**
 
 ![Mimick Rabbitfoot](workshop_preview_image.png)
 
-[Steam Workshop / 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3825300539) · [Source / 开源代码](https://github.com/CloudChaan/Mimick-Rabbitfoot)
+[Steam Workshop / 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3825300539) · [Source / 开源代码](https://github.com/BunnyCiela/Mimick-Rabbitfoot)
 
 假兔脚为 Noita 的普通新游戏筛选更幸运的随机种子。它预测种子中的资源并选择达到目标幸运度的世界，不修改法术、天赋、掉落概率、敌人或玩家属性。腰间的兔脚只提供外观效果，可以在设置中关闭。
 
@@ -52,4 +52,4 @@ The practical model covers selected resources and known puzzle variants; it does
 
 Original code and translations are [MIT licensed](LICENSE). Upstream MIT notices are retained in [THIRD_PARTY_NOTICES](docs/THIRD_PARTY_NOTICES.md). Noita and its game assets belong to Nolla Games and are not relicensed under MIT. Artwork, including the supplied Workshop preview and charm sprites, is excluded from the code license. Rabbit & Steel is credited as inspiration; this project is an independent fan mod.
 
-Source: [CloudChaan/Mimick-Rabbitfoot](https://github.com/CloudChaan/Mimick-Rabbitfoot)
+Source: [BunnyCiela/Mimick-Rabbitfoot](https://github.com/BunnyCiela/Mimick-Rabbitfoot)

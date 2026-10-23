@@ -1,10 +1,10 @@
 {
   "english": {
     "title": "Mimick Rabbitfoot",
-    "description": "[i]Inspired by the item of the same name in Rabbit & Steel.[/i]\n\nMakes you significantly luckier.\nNot a real rabbit's foot.\n\nThis mod selects a luckier random world seed before each normal new game. It does not change game stats, generation rules, or drop rates.\n\nAdjust the luck level and Holy Mountain search depth in Mod Settings. Search settings apply to your next new game; continuing a save keeps its seed. Higher luck levels may take longer to load.\n\nThe rabbit-foot charm is cosmetic and can be switched off at any time.\nSupports all 11 game languages.\n\nSource code: [url=https://github.com/CloudChaan/Mimick-Rabbitfoot]https://github.com/CloudChaan/Mimick-Rabbitfoot[/url]"
+    "description": "[i]Inspired by the item of the same name in Rabbit & Steel.[/i]\n\nMakes you significantly luckier.\nNot a real rabbit's foot.\n\nThis mod selects a luckier random world seed before each normal new game. It does not change game stats, generation rules, or drop rates.\n\nAdjust the luck level and Holy Mountain search depth in Mod Settings. Search settings apply to your next new game; continuing a save keeps its seed. Higher luck levels may take longer to load.\n\nThe rabbit-foot charm is cosmetic and can be switched off at any time.\nSupports all 11 game languages.\n\nSource code: [url=https://github.com/BunnyCiela/Mimick-Rabbitfoot]https://github.com/BunnyCiela/Mimick-Rabbitfoot[/url]"
   },
   "schinese": {
     "title": "假兔脚",
-    "description": "[i]灵感来自游戏《兔子与钢铁》的同名战利品[/i]\n\n令你运气显著变好。\n不是真的兔脚。\n\n该 Mod 不改变原版游戏的数值、生成规则或掉落概率，只是在每次普通新游戏开始前，帮你筛选更加幸运的随机种子。\n\n你可以在模组设置中更改“幸运程度”，也可以调整圣山探查深度。\n设置在下次新游戏生效；继续已有存档不会重新筛种。幸运等级越高，加载时筛种可能越久。\n\n腰间的兔脚挂件仅为外观，可随时在设置中关闭。\n支持游戏全部 11 种语言。\n\n开源地址：[url=https://github.com/CloudChaan/Mimick-Rabbitfoot]https://github.com/CloudChaan/Mimick-Rabbitfoot[/url]"
+    "description": "[i]灵感来自游戏《兔子与钢铁》的同名战利品[/i]\n\n令你运气显著变好。\n不是真的兔脚。\n\n该 Mod 不改变原版游戏的数值、生成规则或掉落概率，只是在每次普通新游戏开始前，帮你筛选更加幸运的随机种子。\n\n你可以在模组设置中更改“幸运程度”，也可以调整圣山探查深度。\n设置在下次新游戏生效；继续已有存档不会重新筛种。幸运等级越高，加载时筛种可能越久。\n\n腰间的兔脚挂件仅为外观，可随时在设置中关闭。\n支持游戏全部 11 种语言。\n\n开源地址：[url=https://github.com/BunnyCiela/Mimick-Rabbitfoot]https://github.com/BunnyCiela/Mimick-Rabbitfoot[/url]"
   }
 }
