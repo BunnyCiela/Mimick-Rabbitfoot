@@ -28,15 +28,33 @@ python tools/release/build.py --wak "D:/SteamLibrary/steamapps/common/Noita/data
 后续维护需将授权的源码改动同步到独立仓库，审阅差异、通过检查后提交推送。
 不把本地游戏素材、存档、临时marker或统计缓存提交到仓库。
 
-创意工坊的配置是Mod根目录 `workshop.xml`，主视觉为用户提供的
+创意工坊的内容上传配置是Mod根目录 `workshop.xml`，主视觉为用户提供的
 `workshop_preview_image.png`。上传排除项覆盖开发资料和非运行期工具；
 `tools/foundation/diagnostics/*.lua` 仍是入口代码引用的可选模块，默认关闭。
 MIT许可和第三方声明另以根目录 `.txt` 副本随工坊上传，符合上传器扩展名白名单。
 
-**Noita上传器原样传递description属性文本，不解码XML实体。**
-说明文案要用属性中的实际换行；不能让XML写入器把换行改成`&#10;`。
-尽量避免需要实体转义的字符，英文游戏名使用“Rabbit and Steel”。
-首次发布已验证：实体形式会在Steam页面显示为文字，实际换行则正常。
+**工坊标题与介绍按语言分别维护，不能把中英文合并到同一描述。**
+`tools/release/workshop-locales.json`保存Steam的`english`与`schinese`两套元数据：
+英文标题`Mimick Rabbitfoot`，简体中文标题`假兔脚`，各自使用对应语言介绍。
+这是工坊页面的语言，与Mod内11种界面语言相互独立；未提供页面翻译的语言回退英文。
+
+`workshop.xml`使用英文默认标题，`description`留空，避免内容上传覆盖已经发布的
+分语言介绍。原上传器不解码XML实体，不能再通过该字段合并上传多语言文案。
+默认英文回退及中文标题/介绍均已通过公开页面/API核对。
+
+通过Noita附带Steam API的`SetItemUpdateLanguage`、`SetItemTitle`、
+`SetItemDescription`发布每套元数据，不更新内容、主视觉、标签或可见性。
+需要已登录的Steam和32位Windows PowerShell；脚本缺省只验证接口与文案，
+只有指定`-Publish`才提交更新：
+
+```powershell
+& "$env:WINDIR/SysWOW64/WindowsPowerShell/v1.0/powershell.exe" -NoProfile -File tools/release/publish_workshop_locales.ps1 -GameDirectory "D:/SteamLibrary/steamapps/common/Noita" -WorkshopId 3825300539 -Publish
+```
+
+脚本核对应用881100、Noita使用的UGC013/Utils009接口、Steam结果和目标条目ID。
+不需要读取或导出登录凭据。Steam API成功后仍须检查公开页面的`l=english`和
+`l=schinese`版本，确保标题和正文均分开。相关API规范见
+[Steamworks ISteamUGC](https://partner.steamgames.com/doc/api/isteamugc#SetItemUpdateLanguage)。
 
 在游戏根目录执行官方批量上传器：
 

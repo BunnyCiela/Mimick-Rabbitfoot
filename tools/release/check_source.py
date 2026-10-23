@@ -51,6 +51,14 @@ def main():
         print(runtime.__name__ + ": syntax and all 418 localized strings verified")
     for name in ("mod.xml", "workshop.xml"):
         ElementTree.parse(ROOT / name)
+    workshop = ElementTree.parse(ROOT / "workshop.xml").getroot()
+    assert workshop.attrib["name"] == "Mimick Rabbitfoot"
+    assert workshop.attrib["description"] == "", "Content uploads must preserve localized descriptions"
+    workshop_locales = json.loads((ROOT / "tools/release/workshop-locales.json").read_text(encoding="utf-8"))
+    assert workshop_locales["english"]["title"] == "Mimick Rabbitfoot"
+    assert workshop_locales["schinese"]["title"] == "假兔脚"
+    assert "令你运气显著变好" not in workshop_locales["english"]["description"]
+    assert "Makes you significantly luckier." not in workshop_locales["schinese"]["description"]
     # If run in an installed game, verify coverage against its actual CSV.
     game_csv = ROOT.parent.parent / "data/translations/common.csv"
     if game_csv.is_file():
