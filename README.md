@@ -14,11 +14,15 @@ Not a real rabbit's foot.**
 
 假兔脚为 Noita 的普通新游戏筛选更幸运的随机种子。它预测种子中的资源并选择达到目标幸运度的世界，不修改法术、天赋、掉落概率、敌人或玩家属性。腰间的兔脚只提供外观效果，可以在设置中关闭。
 
+**兼容性：当前版本仅对原版游戏有效，不兼容任何增加或修改游戏内容的 Mod。**
+
 在模组设置中选择 **Lv0–Lv6 幸运度**，也可以增加圣山探查深度。设置在下次新游戏生效，继续已有游戏不会重新筛种。高幸运度可能延长新游戏加载时间；深处奖励较好不保证开局更容易。
 
 Mimick Rabbitfoot searches for luckier random world seeds before a normal Noita run starts. It predicts resources and chooses a seed that meets your selected luck level. It does not change spells, perks, drop rates, enemies, or player stats. The belt charm is cosmetic and can be disabled.
 
-Choose **Lv0–Lv6** in Mod Settings, with optional deeper Holy Mountain searches. Search settings apply to your next new game. Continuing a save preserves its seed. Higher luck can take longer to load; better rewards deeper down do not guarantee an easier start. Intended for normal NG0 runs in the main world; other world-generation mods may affect prediction accuracy.
+**Compatibility: The current version only works with vanilla Noita and is incompatible with any mods that add or modify game content.**
+
+Choose **Lv0–Lv6** in Mod Settings, with optional deeper Holy Mountain searches. Search settings apply to your next new game. Continuing a save preserves its seed. Higher luck can take longer to load; better rewards deeper down do not guarantee an easier start. Intended for normal NG0 runs in the main world.
 
 ## Languages
 

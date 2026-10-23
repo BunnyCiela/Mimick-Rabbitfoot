@@ -12,8 +12,7 @@ selected mountain, up to the Laboratory.
 
 This is a practical resource model, not an exhaustive simulation of every
 resource in Noita. Natural liquid pools, special containers and unvalidated
-puzzle variants are outside the accepted scoring scope. Other mods that change
-world generation may make predictions inaccurate. A good total does not
+puzzle variants are outside the accepted scoring scope. The current version only works with vanilla Noita and is incompatible with any mods that add or modify game content. A good total does not
 guarantee an easy start or that all counted opportunities can be collected.
 
 Rule version 2.0 deduplicates physical resources first. For each normal spell
