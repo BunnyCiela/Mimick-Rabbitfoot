@@ -1,0 +1,20 @@
+<Entity name="isf_lucky_rabbit_foot" tags="isf_rabbit_foot">
+  <SpriteComponent _tags="isf_rabbit_visual" image_file="mods/interesting_seed_filter/files/isf/cosmetics/joint_sprite.xml"
+    offset_x="0.5" offset_y="0" z_index="0.57" never_ragdollify_on_death="1" />
+  <Entity name="isf_rabbit_cord_2" tags="isf_rabbit_cord_2">
+    <SpriteComponent _tags="isf_rabbit_visual" image_file="mods/interesting_seed_filter/files/isf/cosmetics/joint_sprite.xml"
+      offset_x="0.5" offset_y="0" z_index="0.57" never_ragdollify_on_death="1" />
+  </Entity>
+  <Entity name="isf_rabbit_pendant" tags="isf_rabbit_pendant">
+    <SpriteComponent _tags="isf_rabbit_visual,isf_rabbit_base" image_file="mods/interesting_seed_filter/files/isf/cosmetics/rabbit-foot.png"
+      offset_x="0.5" offset_y="0" z_index="0.56" never_ragdollify_on_death="1" />
+    <SpriteComponent _tags="isf_rabbit_visual,isf_rabbit_glow" _enabled="0" alpha="0"
+      image_file="mods/interesting_seed_filter/files/isf/cosmetics/rabbit-foot.png"
+      offset_x="0.5" offset_y="0" z_index="0.55" additive="1" emissive="1"
+      fog_of_war_hole="0" never_ragdollify_on_death="1" />
+    <SpriteComponent _tags="isf_rabbit_visual,isf_rabbit_halo" _enabled="0" alpha="0"
+      image_file="mods/interesting_seed_filter/files/isf/cosmetics/halo.png"
+      offset_x="2.5" offset_y="2" z_index="0.54" additive="1" emissive="0"
+      fog_of_war_hole="0" never_ragdollify_on_death="1" />
+  </Entity>
+</Entity>

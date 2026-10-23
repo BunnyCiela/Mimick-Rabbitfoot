@@ -1,0 +1,20 @@
+<Entity name="isf_rabbit_particle_emitter" tags="isf_rabbit_particle_emitter" serialize="0">
+  <!-- A 1-frame interval schedules the first emission immediately, like vanilla FX.
+       Native emitter lifetime is decremented BEFORE emission: 2 permits one update
+       to emit, then removes the component. The entity lives longer for safe cleanup. -->
+  <ParticleEmitterComponent _tags="isf_rabbit_emitter"
+    emitted_material_name="spark_white_bright"
+    emit_cosmetic_particles="1" create_real_particles="0" emit_real_particles="0"
+    cosmetic_force_create="1" render_back="0" render_ultrabright="1"
+    render_on_grid="1" particle_single_width="1" draw_as_long="0"
+    fade_based_on_lifetime="1" custom_alpha="1"
+    collide_with_grid="0" collide_with_gas_and_fire="0"
+    gravity.x="0" gravity.y="0" airflow_force="0" friction="0"
+    velocity_always_away_from_center="0" attractor_force="0"
+    x_vel_min="0" x_vel_max="0" y_vel_min="0" y_vel_max="0"
+    count_min="1" count_max="1" lifetime_min="0.2" lifetime_max="0.5"
+    emission_interval_min_frames="1" emission_interval_max_frames="1"
+    emitter_lifetime_frames="2"
+    is_trail="0" is_emitting="1" />
+  <LifetimeComponent lifetime="4" kill_parent="0" kill_all_parents="0" />
+</Entity>

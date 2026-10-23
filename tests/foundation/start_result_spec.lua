@@ -1,0 +1,18 @@
+local result=T.load('mods/interesting_seed_filter/files/isf/runtime/result.lua')
+T.describe('start receipt is bounded and safe for native XML globals')
+local writes=0;local stored
+local api={GlobalsSetValue=function(key,value)T.equal(key,result.KEY,'only own receipt key');stored=value;writes=writes+1 end}
+T.check(result.write(api,{state='error',reason='" & <>\n中文'}),'arbitrary error text is stored safely')
+T.check(stored:match('^ISF_START_V1:%x+$')~=nil,'native value contains only XML-safe ASCII')
+local decoded=stored:sub(#result.PREFIX+1):gsub('%x%x',function(v)return string.char(tonumber(v,16))end)
+T.check(decoded:find('中文',1,true)~=nil,'Unicode retained inside receipt')
+T.check(not result.write(api,{reason=string.rep('x',20000)}),'oversized receipt refused')
+T.equal(writes,1,'oversized data does not overwrite existing receipt')
+T.check(not result.write({},{}),'unavailable writer is handled')
+T.check(not result.write({GlobalsSetValue=function()error('failed')end},{}),'native writer error is handled')
+T.equal(result.asset_checksum('Wikipedia'),'11e60398','standard Adler32 vector')
+local manifest=string.rep('asset-row;',2000)
+T.check(result.write(api,{state='committed',asset_identity=manifest}),'large manifest stored compactly')
+local compact=stored:sub(#result.PREFIX+1):gsub('%x%x',function(v)return string.char(tonumber(v,16))end)
+T.check(compact:find('asset_identity_adler32',1,true)~=nil,'checksum field is explicit')
+T.check(compact:find('asset-row',1,true)==nil,'full manifest omitted')

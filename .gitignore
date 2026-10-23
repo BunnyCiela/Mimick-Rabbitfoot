@@ -1,0 +1,8 @@
+dist/
+.scratch/
+__pycache__/
+*.pyc
+workshop_id.txt
+files/isf/worldgen/data/**/*.png
+files/isf/worldgen/data/*.png
+files/isf/worldgen/data/png_bytes.lua

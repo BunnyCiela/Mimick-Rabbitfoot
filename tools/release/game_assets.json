@@ -1,0 +1,837 @@
+[
+  {
+    "path": "files/isf/worldgen/data/biome_map.png",
+    "source": "data/biome_impl/biome_map.png",
+    "sha256": "e3505adc86a09cc5e5415e511b38f02d8adffd6bfc6932d9f8a9f4a26d29dd50"
+  },
+  {
+    "path": "files/isf/worldgen/data/coalmine.png",
+    "source": "data/wang_tiles/coalmine.png",
+    "sha256": "7e45205c7eb1e7a804e73f1ae7d7c3bbb37436d41f530e769c3921544041c8dc"
+  },
+  {
+    "path": "files/isf/worldgen/data/coalmine_alt.png",
+    "source": "data/wang_tiles/coalmine_alt.png",
+    "sha256": "7663fba98c71c27465fa813ea6689a040517376f10294fff93a07ca3f19594b5"
+  },
+  {
+    "path": "files/isf/worldgen/data/coalmine_overlay.png",
+    "source": "data/wang_tiles/extra_layers/coalmine.png",
+    "sha256": "5c35b71ac18601f7bf341991df2906c87b09c0b755c33e1332ee231b1dd3c848"
+  },
+  {
+    "path": "files/isf/worldgen/data/excavationsite.png",
+    "source": "data/wang_tiles/excavationsite.png",
+    "sha256": "e81881033bbb30c545d0eada8aabb87cfd87fef816301d23a8841d13b3fc7b9c"
+  },
+  {
+    "path": "files/isf/worldgen/data/fungicave.png",
+    "source": "data/wang_tiles/fungicave.png",
+    "sha256": "890d0edf7921cde614522c3a1f3fe999f3543c81dc1893aaeebd1add29372990"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/altar.png",
+    "source": "data/biome_impl/coalmine/altar.png",
+    "sha256": "9263e2aa094ab7728c30aa31bdb96f463efd048092af55b4475c18a5aaedf3ce"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/carthill.png",
+    "source": "data/biome_impl/coalmine/carthill.png",
+    "sha256": "78384885fa2f7790f11001692068354713583d9312d2dfadf69f6bfc41c5c6ca"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/coalpit01.png",
+    "source": "data/biome_impl/coalmine/coalpit01.png",
+    "sha256": "d75255fa310c320c91a85ff3bbbbd01d49c234e9de1c0c4ddcca358c5b8d960f"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/coalpit02.png",
+    "source": "data/biome_impl/coalmine/coalpit02.png",
+    "sha256": "8b89c7f39c6688a3d9a5f9f6f2fc8ac18684274647fd928314d382d5cd97ee92"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/coalpit03.png",
+    "source": "data/biome_impl/coalmine/coalpit03.png",
+    "sha256": "1d40d7284efcd43b8b7fafcdaf7351e5ab920adcbd6a4258b470c5b674738770"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/coalpit04.png",
+    "source": "data/biome_impl/coalmine/coalpit04.png",
+    "sha256": "dbc7426f0e8ce663adda65adb7233a32741edd772cc1487d7dfab7f293264da9"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/coalpit05.png",
+    "source": "data/biome_impl/coalmine/coalpit05.png",
+    "sha256": "7b958aed7a43a8ee37779ffb0b009a653142ac07aaf8885337f94c9e928fc013"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/dangerroom.png",
+    "source": "data/biome_impl/coalmine/dangerroom.png",
+    "sha256": "dd94d797e8cb3d7c2a121a0f53681a8a3ef8c0d222bdf01d53f5da5487a9401e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/laboratory.png",
+    "source": "data/biome_impl/coalmine/laboratory.png",
+    "sha256": "b2778e9ccaa8c528e593d63da227aaff9851c799397b1635b3f18af46fdfc92a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_1.png",
+    "source": "data/biome_impl/coalmine/oiltank_1.png",
+    "sha256": "cb0ac93efc7641f3eb9366a0bc73eedc47d182ad9fb48a55b0835ee94a0a5a57"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_2.png",
+    "source": "data/biome_impl/coalmine/oiltank_2.png",
+    "sha256": "c67c0f443201e3efe1c03937d80e2eae8de4144a33ec42b36a12c2c3f0ebf658"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_3.png",
+    "source": "data/biome_impl/coalmine/oiltank_3.png",
+    "sha256": "0e6c14dfe6826eaf3b623fa0ebdb49fa3944bce415a21034495269fe25f571be"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_4.png",
+    "source": "data/biome_impl/coalmine/oiltank_4.png",
+    "sha256": "06a212d8c23eb7cd0ddc5d4d30cf102a0ba3abca973ac0d9ac17d0df3080cb83"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_5.png",
+    "source": "data/biome_impl/coalmine/oiltank_5.png",
+    "sha256": "3f9aabc25b1eda9f59a325c798a75afd2fdef917acc920115c59d8c42bc64659"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_alt.png",
+    "source": "data/biome_impl/coalmine/oiltank_alt.png",
+    "sha256": "798ed63979d65a74513fd2073d4db4879929ee3559891213505446d7797f7f11"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/oiltank_puzzle.png",
+    "source": "data/biome_impl/coalmine/oiltank_puzzle.png",
+    "sha256": "61dfec91507ddf12d8c3ef4f3dee573aaaf662708c5ea273e2aee427319bf995"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_01.png",
+    "source": "data/biome_impl/coalmine/physics_01.png",
+    "sha256": "5783462b1333f63cb125a520937d20d42902ebff8648000c4d15a7492420c06c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_01_alt.png",
+    "source": "data/biome_impl/coalmine/physics_01_alt.png",
+    "sha256": "b2a42b5918ed962b87239c93b75d583d4301ff7e0e80584e4e0a906beff36a1d"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_02.png",
+    "source": "data/biome_impl/coalmine/physics_02.png",
+    "sha256": "3ff681ce86e2f8c223926cd2356b941dde6c0a5c393206d939da9b2547fdc2fc"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_02_alt.png",
+    "source": "data/biome_impl/coalmine/physics_02_alt.png",
+    "sha256": "7ecd1643283215005e8192bcd101daf3cd9c69d54c218c60a06de63049ae2f6d"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_03.png",
+    "source": "data/biome_impl/coalmine/physics_03.png",
+    "sha256": "50e60b973064459492b830dd84f53c5a4948f39aafb5d246d3503b69fed5de5e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_03_alt.png",
+    "source": "data/biome_impl/coalmine/physics_03_alt.png",
+    "sha256": "9465bb44f96a83e85befda70040242deb52264fdab9d56a1eee13f44040605fb"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/physics_swing_puzzle.png",
+    "source": "data/biome_impl/coalmine/physics_swing_puzzle.png",
+    "sha256": "1cc9a7d24f20694aaf1d48cac7099550e58b950ae6db8a5999134bf207fd208b"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/radioactivecave.png",
+    "source": "data/biome_impl/coalmine/radioactivecave.png",
+    "sha256": "a1880fa084aa8243f3f935a5bc0ba0ef25e45819d8e519430123b8937d1b0e10"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/receptacle_oil.png",
+    "source": "data/biome_impl/coalmine/receptacle_oil.png",
+    "sha256": "0d24bd3761e140f2e85b15d431f8c21674bd5a4d873e45c65b373ab6ba6f4b6e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/shop.png",
+    "source": "data/biome_impl/coalmine/shop.png",
+    "sha256": "1c19634dc7a4cc4fdff780690873c3f57647a33cea7c23407a479974d055f445"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/shop_alt.png",
+    "source": "data/biome_impl/coalmine/shop_alt.png",
+    "sha256": "0925a19a17e7e31ac22a053d821b32ab20a7f05b075a0548f7f9c87388698d71"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/shrine01.png",
+    "source": "data/biome_impl/coalmine/shrine01.png",
+    "sha256": "5642d8785a97377ae9ca220c1929c4a47ea3b0fb978e64b4c22c8fc940b44347"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/shrine01_alt.png",
+    "source": "data/biome_impl/coalmine/shrine01_alt.png",
+    "sha256": "d243215c0063bc19e4006a24bbfd1f4bc7202e900746e75fa78be7017662754a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/shrine02.png",
+    "source": "data/biome_impl/coalmine/shrine02.png",
+    "sha256": "d50900464dc424b2928c94dce951329f46802b1f609d0513ba069054c0c9e935"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/shrine02_alt.png",
+    "source": "data/biome_impl/coalmine/shrine02_alt.png",
+    "sha256": "465c02c6095f835aab9082a7feb3dc2a316f23762a751955d252cb27ee012d27"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/slimepit.png",
+    "source": "data/biome_impl/coalmine/slimepit.png",
+    "sha256": "6676ca6eb5e0412f5c91404cb206cfb58e650717356c03cba306805263c84014"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/swarm.png",
+    "source": "data/biome_impl/coalmine/swarm.png",
+    "sha256": "99e84eb35ae44e736c023e5d05eff4dc392dfd7c7861225472e38ca44d88d143"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/swarm_alt.png",
+    "source": "data/biome_impl/coalmine/swarm_alt.png",
+    "sha256": "6d28e6a125f25b3dccd95d7c994fdbd2fd4c5f37e38a5e6f0b410adc68d6c3ac"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/symbolroom.png",
+    "source": "data/biome_impl/coalmine/symbolroom.png",
+    "sha256": "fbd7c87deaae2eaae4c543c249a9a6f1b5d159618df8529082f96ef32ae4c3b6"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/symbolroom_alt.png",
+    "source": "data/biome_impl/coalmine/symbolroom_alt.png",
+    "sha256": "f85a797a70bf69307bd017f7691983a58de032b34e763a820152c4d0c12c837a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/trailer_altar.png",
+    "source": "data/biome_impl/altar.png",
+    "sha256": "562e2b0a442d9f39b17895d3169e60a9094dea342d75a152a2fa0e8827365794"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_01.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_01.png",
+    "sha256": "26375dcaf514a41255398c715638257f5577b1a8cd3cbe3ff46b332ff4fc175c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_02.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_02.png",
+    "sha256": "acf09f90e98b02ec4c1d90ebf01fa644d50b913a5e06574f110d2cd6a115097f"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_03.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_03.png",
+    "sha256": "e1c40aabc62c5efa92eaaa556a7f9cd520da11d680ce80fe52097235a18bf416"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_04.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_04.png",
+    "sha256": "1ea4ed5b16aadb1f185c087b44d2b21126946a7a0671678f308602607c0f9641"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_05.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_05.png",
+    "sha256": "f283b3977a9b1805191321f7acc8d0e1d19db3412c9a316a4d74e6d53e48183a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_06.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_06.png",
+    "sha256": "1456f56dff741193506b44a43c29096c62889aba68ff62cf414735af89e8d509"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine/wandtrap_h_07.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_07.png",
+    "sha256": "cb0623d8ddef27123a9142258124a9927bfe9dd6e948417d75873a982015ed9a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/altar.png",
+    "source": "data/biome_impl/coalmine/altar.png",
+    "sha256": "9263e2aa094ab7728c30aa31bdb96f463efd048092af55b4475c18a5aaedf3ce"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/carthill.png",
+    "source": "data/biome_impl/coalmine/carthill.png",
+    "sha256": "78384885fa2f7790f11001692068354713583d9312d2dfadf69f6bfc41c5c6ca"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/coalpit01.png",
+    "source": "data/biome_impl/coalmine/coalpit01.png",
+    "sha256": "d75255fa310c320c91a85ff3bbbbd01d49c234e9de1c0c4ddcca358c5b8d960f"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/coalpit02.png",
+    "source": "data/biome_impl/coalmine/coalpit02.png",
+    "sha256": "8b89c7f39c6688a3d9a5f9f6f2fc8ac18684274647fd928314d382d5cd97ee92"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/coalpit03.png",
+    "source": "data/biome_impl/coalmine/coalpit03.png",
+    "sha256": "1d40d7284efcd43b8b7fafcdaf7351e5ab920adcbd6a4258b470c5b674738770"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/coalpit04.png",
+    "source": "data/biome_impl/coalmine/coalpit04.png",
+    "sha256": "dbc7426f0e8ce663adda65adb7233a32741edd772cc1487d7dfab7f293264da9"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/coalpit05.png",
+    "source": "data/biome_impl/coalmine/coalpit05.png",
+    "sha256": "7b958aed7a43a8ee37779ffb0b009a653142ac07aaf8885337f94c9e928fc013"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/dangerroom.png",
+    "source": "data/biome_impl/coalmine/dangerroom.png",
+    "sha256": "dd94d797e8cb3d7c2a121a0f53681a8a3ef8c0d222bdf01d53f5da5487a9401e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/laboratory.png",
+    "source": "data/biome_impl/coalmine/laboratory.png",
+    "sha256": "b2778e9ccaa8c528e593d63da227aaff9851c799397b1635b3f18af46fdfc92a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_1.png",
+    "source": "data/biome_impl/coalmine/oiltank_1.png",
+    "sha256": "cb0ac93efc7641f3eb9366a0bc73eedc47d182ad9fb48a55b0835ee94a0a5a57"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_2.png",
+    "source": "data/biome_impl/coalmine/oiltank_2.png",
+    "sha256": "c67c0f443201e3efe1c03937d80e2eae8de4144a33ec42b36a12c2c3f0ebf658"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_3.png",
+    "source": "data/biome_impl/coalmine/oiltank_3.png",
+    "sha256": "0e6c14dfe6826eaf3b623fa0ebdb49fa3944bce415a21034495269fe25f571be"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_4.png",
+    "source": "data/biome_impl/coalmine/oiltank_4.png",
+    "sha256": "06a212d8c23eb7cd0ddc5d4d30cf102a0ba3abca973ac0d9ac17d0df3080cb83"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_5.png",
+    "source": "data/biome_impl/coalmine/oiltank_5.png",
+    "sha256": "3f9aabc25b1eda9f59a325c798a75afd2fdef917acc920115c59d8c42bc64659"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_alt.png",
+    "source": "data/biome_impl/coalmine/oiltank_alt.png",
+    "sha256": "798ed63979d65a74513fd2073d4db4879929ee3559891213505446d7797f7f11"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/oiltank_puzzle.png",
+    "source": "data/biome_impl/coalmine/oiltank_puzzle.png",
+    "sha256": "61dfec91507ddf12d8c3ef4f3dee573aaaf662708c5ea273e2aee427319bf995"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_01.png",
+    "source": "data/biome_impl/coalmine/physics_01.png",
+    "sha256": "5783462b1333f63cb125a520937d20d42902ebff8648000c4d15a7492420c06c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_01_alt.png",
+    "source": "data/biome_impl/coalmine/physics_01_alt.png",
+    "sha256": "b2a42b5918ed962b87239c93b75d583d4301ff7e0e80584e4e0a906beff36a1d"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_02.png",
+    "source": "data/biome_impl/coalmine/physics_02.png",
+    "sha256": "3ff681ce86e2f8c223926cd2356b941dde6c0a5c393206d939da9b2547fdc2fc"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_02_alt.png",
+    "source": "data/biome_impl/coalmine/physics_02_alt.png",
+    "sha256": "7ecd1643283215005e8192bcd101daf3cd9c69d54c218c60a06de63049ae2f6d"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_03.png",
+    "source": "data/biome_impl/coalmine/physics_03.png",
+    "sha256": "50e60b973064459492b830dd84f53c5a4948f39aafb5d246d3503b69fed5de5e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_03_alt.png",
+    "source": "data/biome_impl/coalmine/physics_03_alt.png",
+    "sha256": "9465bb44f96a83e85befda70040242deb52264fdab9d56a1eee13f44040605fb"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/physics_swing_puzzle.png",
+    "source": "data/biome_impl/coalmine/physics_swing_puzzle.png",
+    "sha256": "1cc9a7d24f20694aaf1d48cac7099550e58b950ae6db8a5999134bf207fd208b"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/radioactivecave.png",
+    "source": "data/biome_impl/coalmine/radioactivecave.png",
+    "sha256": "a1880fa084aa8243f3f935a5bc0ba0ef25e45819d8e519430123b8937d1b0e10"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/receptacle_oil.png",
+    "source": "data/biome_impl/coalmine/receptacle_oil.png",
+    "sha256": "0d24bd3761e140f2e85b15d431f8c21674bd5a4d873e45c65b373ab6ba6f4b6e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/shop.png",
+    "source": "data/biome_impl/coalmine/shop.png",
+    "sha256": "1c19634dc7a4cc4fdff780690873c3f57647a33cea7c23407a479974d055f445"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/shop_alt.png",
+    "source": "data/biome_impl/coalmine/shop_alt.png",
+    "sha256": "0925a19a17e7e31ac22a053d821b32ab20a7f05b075a0548f7f9c87388698d71"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/shrine01.png",
+    "source": "data/biome_impl/coalmine/shrine01.png",
+    "sha256": "5642d8785a97377ae9ca220c1929c4a47ea3b0fb978e64b4c22c8fc940b44347"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/shrine01_alt.png",
+    "source": "data/biome_impl/coalmine/shrine01_alt.png",
+    "sha256": "d243215c0063bc19e4006a24bbfd1f4bc7202e900746e75fa78be7017662754a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/shrine02.png",
+    "source": "data/biome_impl/coalmine/shrine02.png",
+    "sha256": "d50900464dc424b2928c94dce951329f46802b1f609d0513ba069054c0c9e935"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/shrine02_alt.png",
+    "source": "data/biome_impl/coalmine/shrine02_alt.png",
+    "sha256": "465c02c6095f835aab9082a7feb3dc2a316f23762a751955d252cb27ee012d27"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/slimepit.png",
+    "source": "data/biome_impl/coalmine/slimepit.png",
+    "sha256": "6676ca6eb5e0412f5c91404cb206cfb58e650717356c03cba306805263c84014"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/swarm.png",
+    "source": "data/biome_impl/coalmine/swarm.png",
+    "sha256": "99e84eb35ae44e736c023e5d05eff4dc392dfd7c7861225472e38ca44d88d143"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/swarm_alt.png",
+    "source": "data/biome_impl/coalmine/swarm_alt.png",
+    "sha256": "6d28e6a125f25b3dccd95d7c994fdbd2fd4c5f37e38a5e6f0b410adc68d6c3ac"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/symbolroom.png",
+    "source": "data/biome_impl/coalmine/symbolroom.png",
+    "sha256": "fbd7c87deaae2eaae4c543c249a9a6f1b5d159618df8529082f96ef32ae4c3b6"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/symbolroom_alt.png",
+    "source": "data/biome_impl/coalmine/symbolroom_alt.png",
+    "sha256": "f85a797a70bf69307bd017f7691983a58de032b34e763a820152c4d0c12c837a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/trailer_altar.png",
+    "source": "data/biome_impl/altar.png",
+    "sha256": "562e2b0a442d9f39b17895d3169e60a9094dea342d75a152a2fa0e8827365794"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_01.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_01.png",
+    "sha256": "26375dcaf514a41255398c715638257f5577b1a8cd3cbe3ff46b332ff4fc175c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_02.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_02.png",
+    "sha256": "acf09f90e98b02ec4c1d90ebf01fa644d50b913a5e06574f110d2cd6a115097f"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_03.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_03.png",
+    "sha256": "e1c40aabc62c5efa92eaaa556a7f9cd520da11d680ce80fe52097235a18bf416"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_04.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_04.png",
+    "sha256": "1ea4ed5b16aadb1f185c087b44d2b21126946a7a0671678f308602607c0f9641"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_05.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_05.png",
+    "sha256": "f283b3977a9b1805191321f7acc8d0e1d19db3412c9a316a4d74e6d53e48183a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_06.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_06.png",
+    "sha256": "1456f56dff741193506b44a43c29096c62889aba68ff62cf414735af89e8d509"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/coalmine_alt/wandtrap_h_07.png",
+    "source": "data/biome_impl/coalmine/wandtrap_h_07.png",
+    "sha256": "cb0623d8ddef27123a9142258124a9927bfe9dd6e948417d75873a982015ed9a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/cube_chamber.png",
+    "source": "data/biome_impl/excavationsite/cube_chamber.png",
+    "sha256": "df917fd65d88137c6dae2be32b158622849892f6b313b83d7b5055fada904288"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/gunpowderpool_01.png",
+    "source": "data/biome_impl/excavationsite/gunpowderpool_01.png",
+    "sha256": "ce8788df1c8f70ef611afd8c4d938eacb605db7a92dc31a5351459947cb8b94f"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/gunpowderpool_02.png",
+    "source": "data/biome_impl/excavationsite/gunpowderpool_02.png",
+    "sha256": "5339186372914940a2ce89b33902d40c2cdeb4f66a980c26200d035e582dadc6"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/gunpowderpool_03.png",
+    "source": "data/biome_impl/excavationsite/gunpowderpool_03.png",
+    "sha256": "0ba44abffe85a6772a0169b46ce674525cac716082b6e2a74fb560cd1b89a6f4"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/gunpowderpool_04.png",
+    "source": "data/biome_impl/excavationsite/gunpowderpool_04.png",
+    "sha256": "e56fe0c363c93da37315f25d7c56f38d973a9ce779232eec2cd1cb8abc9565c2"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/lake.png",
+    "source": "data/biome_impl/excavationsite/lake.png",
+    "sha256": "e87d158ac9d18b7caf4e906f2c32cd6d3a94a627b034ab7090d3ca336191c183"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/lake_alt.png",
+    "source": "data/biome_impl/excavationsite/lake_alt.png",
+    "sha256": "41fa0cee269399f68f14547c2dc81f45c89e2a264039b9ef80fc997f9adb8c60"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_1.png",
+    "source": "data/biome_impl/excavationsite/machine_1.png",
+    "sha256": "5d222c43bd54d1a41418ab73fbaac985cb2787b54908c4e40cdcede129a0bdb2"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_1_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_1_alt.png",
+    "sha256": "b70123e64574ada911dc9a32c3c8537292eb1659a030881f2914e6bba272bae6"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_2.png",
+    "source": "data/biome_impl/excavationsite/machine_2.png",
+    "sha256": "e52bc32a5d20f41df3cf8593c317f8d64e4c7470eb796df84a15d320f58bc4e6"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_2_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_2_alt.png",
+    "sha256": "0ac3591f761070028c3bc6ddddb4a90a2a536dcadf9a81ee57a0120a68dc5260"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_3.png",
+    "source": "data/biome_impl/excavationsite/machine_3.png",
+    "sha256": "88be562680f5aae827d308ed46ee1780f4a3180d6711275f673b573ba119e6f0"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_3_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_3_alt.png",
+    "sha256": "1a06f12d2fd0357a218cd115e5ad369573ff078972143ea8ff7fd8f85f195827"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_3b.png",
+    "source": "data/biome_impl/excavationsite/machine_3b.png",
+    "sha256": "75754efc8d95f0fdc9facaf63413092d557ef793293d956e1cfd90a713adc358"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_3b_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_3b_alt.png",
+    "sha256": "97cbac158b5611fa3803001e8214e458b08a72425ac8337064bde85aedf68eb0"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_4.png",
+    "source": "data/biome_impl/excavationsite/machine_4.png",
+    "sha256": "ef7c14024fe679642d60d3e75ba9cdb776c02685d18f91575135033936b8b8b3"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_4_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_4_alt.png",
+    "sha256": "303b158287caa67bda44610dbddaa92c3b5523b84e939dedee131b891e390b4a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_5.png",
+    "source": "data/biome_impl/excavationsite/machine_5.png",
+    "sha256": "f3d10ccccf7b0dda97ffe7f6142bf40ce90e5906f13395a36a0ae2834fb90863"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_5_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_5_alt.png",
+    "sha256": "2218130dd071ee482f36e836e048537de76f943253df76d2f42ae60829521330"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_6.png",
+    "source": "data/biome_impl/excavationsite/machine_6.png",
+    "sha256": "526da48aef3a31613523206de55546db35db0937a67326e6093eb5bc9bd55537"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_6_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_6_alt.png",
+    "sha256": "7f6ccea4609e800d19a1720106e8a50c9506386074376bc815413b358b3ee3f1"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_7.png",
+    "source": "data/biome_impl/excavationsite/machine_7.png",
+    "sha256": "17b87036046bab229f7c41ff0825d872723c2f3da784d83d1329a909a78f1b50"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/machine_7_alt.png",
+    "source": "data/biome_impl/excavationsite/machine_7_alt.png",
+    "sha256": "d0e0975d3f0aa8b39db5bbce798f29fff5fc21aad09d26e3245ca37dc0ba43da"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/mechanism.png",
+    "source": "data/biome_impl/excavationsite/mechanism.png",
+    "sha256": "80a154877fcf03b4b4597919d45659db7d999a0eace68825ac6c492f3b23536a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/meditation_cube.png",
+    "source": "data/biome_impl/excavationsite/meditation_cube.png",
+    "sha256": "4514b82e175e4216e92606957b4a90cc8e3036e2f445eed56874478183b58864"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/meditation_cube_visual.png",
+    "source": "data/biome_impl/excavationsite/meditation_cube_visual.png",
+    "sha256": "6ffb207e8955bc19275704c86b03f37c0b2a86e49a2d19b39a46aff3229151df"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/oiltank_1.png",
+    "source": "data/biome_impl/excavationsite/oiltank_1.png",
+    "sha256": "576dd66f0aca9fd23e184e3d06882aa101899cac591098457a1fe7c91895f0fa"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/puzzleroom_01.png",
+    "source": "data/biome_impl/excavationsite/puzzleroom_01.png",
+    "sha256": "ccf9e6ba9ff93b35734db54b5715188263168d528aeebcd0d2d71ec82e94842b"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/puzzleroom_02.png",
+    "source": "data/biome_impl/excavationsite/puzzleroom_02.png",
+    "sha256": "bed151a515aeb6d249c9ee516f849908aa866475a7d0c56487c376e7a8139f4c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/puzzleroom_03.png",
+    "source": "data/biome_impl/excavationsite/puzzleroom_03.png",
+    "sha256": "7ee4f9250a4416af167be36581317a8cabdd08845a9e9f993eaef9d1da4da71d"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/receptacle_steam.png",
+    "source": "data/biome_impl/excavationsite/receptacle_steam.png",
+    "sha256": "26a4fbf131365fecf84f4d9959ba6d1821fefcfec2d43e45db0b5f4c303aecb1"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/shop.png",
+    "source": "data/biome_impl/excavationsite/shop.png",
+    "sha256": "a3013466ca7daa4aac3d6a4d1c5c2a2231e527dbf5180373ef148f939bc81e67"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/excavationsite/shop_alt.png",
+    "source": "data/biome_impl/excavationsite/shop_alt.png",
+    "sha256": "f0a946480e26de55a161755794e89fb8832cd4bdea389a67781fd211dd18ea98"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/general/potion_altar.png",
+    "source": "data/biome_impl/potion_altar.png",
+    "sha256": "82a83b46d99b90f7a01e7cdf12b96ad84f0c3105628212b94c682027420b297c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/general/wand_altar.png",
+    "source": "data/biome_impl/wand_altar.png",
+    "sha256": "f4cefdd34ace68303f349d57a03f86ff6a5ae692b095b14f5315ae35ea427939"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/acidtank.png",
+    "source": "data/biome_impl/acidtank.png",
+    "sha256": "edd01d0019e7f74e54ba4b0d0fa88b74f26c61547ee9bdfe30e1d5dc6eb6fccb"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/acidtank_2.png",
+    "source": "data/biome_impl/acidtank_2.png",
+    "sha256": "9d156a65f32f759c02ab3ce1684590b3773469a9aa6b6cb71102d9a4616bb9c5"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/altar.png",
+    "source": "data/biome_impl/snowcave/altar.png",
+    "sha256": "6b105ffa2909c689b227286f2a246e5a63e5334c77e60be06ffd57af3b94b902"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/altar_snowcave_capsule.png",
+    "source": "data/biome_impl/temple/altar_snowcave_capsule.png",
+    "sha256": "764cd6e2d16cc6a03199ad9f4c7b6fd228a52d4ecd23fc2f7e0bc5a7e8516a61"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/altar_trailer.png",
+    "source": "data/biome_impl/snowcave/altar_trailer.png",
+    "sha256": "5b09c9061216e5ba2415e5d8e1b93a16e36b03cc8f3d3980b8aad34c1b9bc0d2"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/buried_eye.png",
+    "source": "data/biome_impl/snowcave/buried_eye.png",
+    "sha256": "b0aa2c1b38bc37e7d71e31bfa3660885219958231421b2c6e03ab010bd55fe04"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/buried_eye_visual.png",
+    "source": "data/biome_impl/snowcave/buried_eye_visual.png",
+    "sha256": "95fe97e2456e98c682c9f70dcaab879a753ac596acd4c86bdaad806ab5756a27"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/camp.png",
+    "source": "data/biome_impl/snowcave/camp.png",
+    "sha256": "6581c53c17fa8c2a576d12d0a66f10a61821e4143d202e48a22ba569940a8972"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/crater.png",
+    "source": "data/biome_impl/snowcave/crater.png",
+    "sha256": "1aeed9a1e741eb773e7d2ce46305ca7e65b754b1cb0fb7d832201e35ed63a281"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/horizontalobservatory.png",
+    "source": "data/biome_impl/snowcave/horizontalobservatory.png",
+    "sha256": "79700bc87d4000e7e0ec018aadbb4efa72dbf51821505fc317be7f07e8463bf4"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/horizontalobservatory2.png",
+    "source": "data/biome_impl/snowcave/horizontalobservatory2.png",
+    "sha256": "6f2188f0a327053df9cbadb3a79026c1d64c46ab51852cb2ae2d02f700b697f3"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/horizontalobservatory3.png",
+    "source": "data/biome_impl/snowcave/horizontalobservatory3.png",
+    "sha256": "bc8089d724c25aa7c741b7e6b8520fe1382c17e85538b807477cb1feb79dde0c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icebridge.png",
+    "source": "data/biome_impl/snowcave/icebridge.png",
+    "sha256": "00b5c6cd38db51b24a1ab1ff4c7a556c4a42130cf85457851d2ccb83a14728a0"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icebridge2.png",
+    "source": "data/biome_impl/snowcave/icebridge2.png",
+    "sha256": "71853762f9579aecacb019d9c756b01154e9038fb4c4e18e4b54b560fce24f3d"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icebridge2_alt.png",
+    "source": "data/biome_impl/snowcave/icebridge2_alt.png",
+    "sha256": "fce377c4a60b1ac019488fdb0379db24145b6f794ac8d49984b67a5ad394397c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icepillar.png",
+    "source": "data/biome_impl/snowcave/icepillar.png",
+    "sha256": "9185aca43686cbd80c2d65c9ee5a77fcf85cfccf77b474f9bf752d257f5a8d12"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icicles.png",
+    "source": "data/biome_impl/snowcave/icicles.png",
+    "sha256": "4bbac552edf9c37b864f09f3396fea7c00a3eb51b579b72ceebcc5567bd3f881"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icicles2.png",
+    "source": "data/biome_impl/snowcave/icicles2.png",
+    "sha256": "c2c75a4c9f6bd47213b61d1cef21dbfafdb9e7a312597a17b1f2868b07eefa45"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icicles3.png",
+    "source": "data/biome_impl/snowcave/icicles3.png",
+    "sha256": "9962f3ff45be3a23e370f8632e03892efd4fcb3628f81b639737f0f5d99a18a7"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/icicles4.png",
+    "source": "data/biome_impl/snowcave/icicles4.png",
+    "sha256": "afca0daee040684173ad6a0efab672309c8cd3eea7083f2b40a766c59fd67378"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/pipe.png",
+    "source": "data/biome_impl/snowcave/pipe.png",
+    "sha256": "39bb9578b1aeb9b267e0bcc112c0735ca974e760e660f24d632a071ec2216d7a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/pipe_alt.png",
+    "source": "data/biome_impl/snowcave/pipe_alt.png",
+    "sha256": "04aa7078ec16ca3341eabbf32fc0d83190ca6e7d3afebc0b902e846bb10b2f01"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/puzzle_capsule.png",
+    "source": "data/biome_impl/snowcave/puzzle_capsule.png",
+    "sha256": "761349a84a01e119283a63c7545f2ce54bc5c607bc10e11fdedce250bc517045"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/puzzle_capsule_b.png",
+    "source": "data/biome_impl/snowcave/puzzle_capsule_b.png",
+    "sha256": "39f267e4fccdff1c1fc488b5d19f7a7190b5d27cd1efa100df480701c77f3f4e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/receptacle_water.png",
+    "source": "data/biome_impl/snowcave/receptacle_water.png",
+    "sha256": "a027a1f74bc84c6706a2b8b65feaa968215485a5f3858bb50302c18730087def"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/secret_chamber.png",
+    "source": "data/biome_impl/snowcave/secret_chamber.png",
+    "sha256": "3b6e473a901639740c6e8c4672892df1eead970aaaaad798ff450a989fd0975e"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/shop.png",
+    "source": "data/biome_impl/snowcave/shop.png",
+    "sha256": "540118c17e05b44f79c605b80d689ba6c86b54455fbeee251e7856e1f8d038b0"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/snowcastle.png",
+    "source": "data/biome_impl/snowcave/snowcastle.png",
+    "sha256": "4cc9793ff2bed263e757bf74ca37c184f8dc2b27060f11dd88b04a7b42b59c60"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/statue_hand.png",
+    "source": "data/biome_impl/snowcave/statue_hand.png",
+    "sha256": "6c7b217485e6baa9e2d7f3bf440e7060b01101379feca536ca39ba9078302b5a"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/symbolroom.png",
+    "source": "data/biome_impl/snowcave/symbolroom.png",
+    "sha256": "88eb4085983df9a894ffe97de974500da353d4549ebb453ffd1470d756798dc5"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/tinyobservatory.png",
+    "source": "data/biome_impl/snowcave/tinyobservatory.png",
+    "sha256": "a2d6cda1d08cf5454553b46e9734795a42898366ea9c285d5e307892f2faf546"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/tinyobservatory2.png",
+    "source": "data/biome_impl/snowcave/tinyobservatory2.png",
+    "sha256": "1915cd93a8d8f074010abeb341aaf4e4f82e538846e5b2fdd6046c1735f205bf"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/trailer_altar.png",
+    "source": "data/biome_impl/altar.png",
+    "sha256": "562e2b0a442d9f39b17895d3169e60a9094dea342d75a152a2fa0e8827365794"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/verticalobservatory.png",
+    "source": "data/biome_impl/snowcave/verticalobservatory.png",
+    "sha256": "1f5523e6c83f95f3d003be232fd09fe2b3af5d87e56e4ce5800b08c4d8e21528"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/verticalobservatory2.png",
+    "source": "data/biome_impl/snowcave/verticalobservatory2.png",
+    "sha256": "8ebff5ad17cacb5490abbf2bd29ec7151edf73cee85c62c6a46b88f9ac70f65c"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/verticalobservatory2_alt.png",
+    "source": "data/biome_impl/snowcave/verticalobservatory2_alt.png",
+    "sha256": "20867d7999148d685e6c1c1d86ebcca4de272b02125a65a8a737fa1afa0e8028"
+  },
+  {
+    "path": "files/isf/worldgen/data/pixel_scenes/snowcave/verticalobservatory_alt.png",
+    "source": "data/biome_impl/snowcave/verticalobservatory_alt.png",
+    "sha256": "85d937d7c239c37b3561c75aba63db0325a098be7834386406555a479d74d4fb"
+  },
+  {
+    "path": "files/isf/worldgen/data/snowcave.png",
+    "source": "data/wang_tiles/snowcave.png",
+    "sha256": "8f52475c4057d16b1334cb1a69441dc1c7972014318391807d51dbd83a89987d"
+  }
+]
